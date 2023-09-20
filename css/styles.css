@@ -1,0 +1,162 @@
+body {
+    height: 100vh;
+    width: 100vw;
+
+    background-color: lightgrey;
+
+    padding: 0;
+    margin: 0;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: row;
+    flex-direction: column;
+
+}
+
+.marco {
+    display: flex;
+    justify-content: center;
+    align-items: row;
+    flex-direction: column;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 1%;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: row;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.titulo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+
+}
+
+#titulo1 {
+    color: green;
+    margin-right: 1rem;
+}
+
+
+#titulo2 {
+    color: chocolate;
+}
+
+.submarco {
+    display: flex;
+    justify-content: center;
+    align-items: row;
+    flex-direction: row;
+}
+
+
+.navegador {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    display: inline-block; /* Asi el backgorund color ocupa e tamaño de la celda  */
+}
+
+
+a {
+    text-decoration: unset;
+}
+
+.miBoton {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, .255), rgba(155, 222, 155, .8));
+    margin-bottom: 0.5rem;
+    block-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 1%;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+}
+
+.miBoton:hover {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, .255), rgba(222, 155, 155, .8));
+    transition: 180ms;
+    block-size: 2.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.bloque {
+    /* 
+    margin: 2rem;
+    border: 0.1em solid black; 
+    outline-style:solid;
+    outline-color: lightgrey;
+    outline-width: 0.1rem;
+    outline-offset: 1rem;
+    */
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 0.1em solid lightgrey;
+    background: linear-gradient(to bottom, rgba(199, 199, 199, .8) 0%, rgba(255, 255, 255, .255) 10%, rgba(255, 255, 255, .255) 90%, rgba(199, 199, 199, .8) 100%);
+}
+
+.subtitulo {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: yellowgreen;
+
+    border: 0 none;
+    border-bottom: 0.1rem solid #ccc;
+
+    /* 
+     outline-style: solid;
+    outline-color: lightgrey;
+    outline-width: 0.1rem;
+    outline-offset: 1rem left, 0em bottom; 
+    text-decoration: underline;
+    border: 0.1rem solid lightgrey;
+    */
+}
+
+.texto {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+}
+
+.pie {
+
+    display: flex;
+    justify-content: center;
+    align-items: column;
+    flex-direction: row;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    font-size: 0.6rem;
+    color: lightgrey;
+
+}
